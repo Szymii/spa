@@ -11,19 +11,34 @@
           <h3>Opis:</h3>
           <p>{{ book.description }}</p>
         </div>
-        <button class="button">Dodaj do koszyka</button>
+        <button class="button" @click="handleModalOpen">
+          Dodaj do koszyka
+        </button>
+        <ReservationModal
+          :isOpen="isModalOpen"
+          :handleClose="handleModalClose"
+        />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import ReservationModal from "../components/ReservationModal.vue";
+import { ref } from "vue";
 import { useRoute } from "vue-router";
 import data from "../books.json";
 
 const route = useRoute();
-
 const book = data.find(({ id }) => id === route.params.id);
+
+const isModalOpen = ref(false);
+const handleModalOpen = () => {
+  isModalOpen.value = true;
+};
+const handleModalClose = () => {
+  isModalOpen.value = false;
+};
 </script>
 
 <style scoped>
@@ -41,7 +56,7 @@ const book = data.find(({ id }) => id === route.params.id);
 
 .info {
   background-color: rgb(245, 245, 245);
-  width: 400px;
+  max-width: 400px;
   padding: 40px;
   gap: 1rem;
   display: flex;
@@ -72,6 +87,7 @@ const book = data.find(({ id }) => id === route.params.id);
 @media (max-width: 900px) {
   .wrapper {
     flex-direction: column;
+    padding: 30px 0;
   }
   .cover {
     max-width: 100px;
