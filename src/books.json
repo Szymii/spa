@@ -2,6 +2,7 @@
   {
     "id": "12834",
     "name": "Harry Potter",
+    "author": "J. K. Rowling",
     "cover": "https://m.media-amazon.com/images/I/51P1Rfz5n3L._AC_SY780_.jpg",
     "price": 21.49,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend lacus lacus. Curabitur magna purus, convallis vitae bibendum dapibus, suscipit eget massa. Suspendisse malesuada porta aliquet. Morbi laoreet, libero quis eleifend tincidunt, lorem enim lobortis est, ut suscipit risus nunc a eros. Ut ac leo dapibus, gravida ipsum vitae, accumsan neque.",
@@ -11,6 +12,7 @@
   {
     "id": "12374",
     "name": "Harry Potter",
+    "author": "J. K. Rowling",
     "cover": "https://m.media-amazon.com/images/I/51P1Rfz5n3L._AC_SY780_.jpg",
     "price": 21.49,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend lacus lacus. Curabitur magna purus, convallis vitae bibendum dapibus, suscipit eget massa. Suspendisse malesuada porta aliquet. Morbi laoreet, libero quis eleifend tincidunt, lorem enim lobortis est, ut suscipit risus nunc a eros. Ut ac leo dapibus, gravida ipsum vitae, accumsan neque.",
@@ -20,6 +22,7 @@
   {
     "id": "12364",
     "name": "Harry Potter",
+    "author": "J. K. Rowling",
     "cover": "https://m.media-amazon.com/images/I/51P1Rfz5n3L._AC_SY780_.jpg",
     "price": 21.49,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend lacus lacus. Curabitur magna purus, convallis vitae bibendum dapibus, suscipit eget massa. Suspendisse malesuada porta aliquet. Morbi laoreet, libero quis eleifend tincidunt, lorem enim lobortis est, ut suscipit risus nunc a eros. Ut ac leo dapibus, gravida ipsum vitae, accumsan neque.",
@@ -29,6 +32,7 @@
   {
     "id": "12534",
     "name": "Hobbit",
+    "author": "J. R. R. Tolkien",
     "cover": "https://i.wpimg.pl/O/1535x2150/ksiazki.wpcdn.pl/cover/6475129769412737.jpg",
     "price": 13.49,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend lacus lacus. Curabitur magna purus, convallis vitae bibendum dapibus, suscipit eget massa. Suspendisse malesuada porta aliquet. Morbi laoreet, libero quis eleifend tincidunt, lorem enim lobortis est, ut suscipit risus nunc a eros. Ut ac leo dapibus, gravida ipsum vitae, accumsan neque.",
@@ -38,6 +42,7 @@
   {
     "id": "12434",
     "name": "Hobbit",
+    "author": "J. R. R. Tolkien",
     "cover": "https://i.wpimg.pl/O/1535x2150/ksiazki.wpcdn.pl/cover/6475129769412737.jpg",
     "price": 13.49,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend lacus lacus. Curabitur magna purus, convallis vitae bibendum dapibus, suscipit eget massa. Suspendisse malesuada porta aliquet. Morbi laoreet, libero quis eleifend tincidunt, lorem enim lobortis est, ut suscipit risus nunc a eros. Ut ac leo dapibus, gravida ipsum vitae, accumsan neque.",
@@ -47,6 +52,7 @@
   {
     "id": "1334",
     "name": "Hobbit",
+    "author": "J. R. R. Tolkien",
     "cover": "https://i.wpimg.pl/O/1535x2150/ksiazki.wpcdn.pl/cover/6475129769412737.jpg",
     "price": 13.49,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend lacus lacus. Curabitur magna purus, convallis vitae bibendum dapibus, suscipit eget massa. Suspendisse malesuada porta aliquet. Morbi laoreet, libero quis eleifend tincidunt, lorem enim lobortis est, ut suscipit risus nunc a eros. Ut ac leo dapibus, gravida ipsum vitae, accumsan neque.",
