@@ -1,9 +1,13 @@
 <template>
   <ul class="list">
     <li v-for="book in props.list" :key="book.id">
-      <RouterLink to="{  params: { id: {{ book.id }} }" class="link listItem">
+      <RouterLink :to="book.id" class="link listItem">
         <img :src="book.cover" class="cover" />
-        {{ book.name }}
+
+        <div class="description">
+          <span>{{ book.name }}</span>
+          <span class="price">{{ book.price }} zł</span>
+        </div>
       </RouterLink>
     </li>
   </ul>
@@ -35,5 +39,23 @@ const props = defineProps(["list"]);
 .link {
   color: black;
   text-decoration: none;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.price {
+  color: rgb(255, 123, 0);
+}
+
+@media (max-width: 900px) {
+  .cover {
+    width: 150px;
+    height: 225px;
+  }
 }
 </style>
