@@ -1,5 +1,8 @@
 <template>
-  <div></div>
+  <MainNavigation />
+  <div class="content">Book</div>
 </template>
 
-<script setup></script>
+<script setup>
+import MainNavigation from "../components/MainNavigation.vue";
+</script>

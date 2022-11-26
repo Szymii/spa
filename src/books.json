@@ -1,9 +1,50 @@
 [
   {
+    "id": "12834",
     "name": "Harry Potter",
-    "cover": "",
+    "cover": "https://m.media-amazon.com/images/I/51P1Rfz5n3L._AC_SY780_.jpg",
     "price": 21.4,
     "description": "Lorem ipsum",
     "category": "bestseller"
+  },
+  {
+    "id": "12374",
+    "name": "Harry Potter",
+    "cover": "https://m.media-amazon.com/images/I/51P1Rfz5n3L._AC_SY780_.jpg",
+    "price": 21.4,
+    "description": "Lorem ipsum",
+    "category": "bestseller"
+  },
+  {
+    "id": "12364",
+    "name": "Harry Potter",
+    "cover": "https://m.media-amazon.com/images/I/51P1Rfz5n3L._AC_SY780_.jpg",
+    "price": 21.4,
+    "description": "Lorem ipsum ",
+    "category": "bestseller"
+  },
+  {
+    "id": "12534",
+    "name": "Hobbit",
+    "cover": "https://i.wpimg.pl/O/1535x2150/ksiazki.wpcdn.pl/cover/6475129769412737.jpg",
+    "price": 13.4,
+    "description": "Lorem ipsum ",
+    "category": "newest"
+  },
+  {
+    "id": "12434",
+    "name": "Hobbit",
+    "cover": "https://i.wpimg.pl/O/1535x2150/ksiazki.wpcdn.pl/cover/6475129769412737.jpg",
+    "price": 13.4,
+    "description": "Lorem ipsum ",
+    "category": "newest"
+  },
+  {
+    "id": "1334",
+    "name": "Hobbit",
+    "cover": "https://i.wpimg.pl/O/1535x2150/ksiazki.wpcdn.pl/cover/6475129769412737.jpg",
+    "price": 13.4,
+    "description": "Lorem ipsum ",
+    "category": "newest"
   }
 ]
