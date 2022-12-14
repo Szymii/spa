@@ -1,6 +1,6 @@
 <template>
   <div :class="{ active: props.isOpen }" class="modal">
-    <div class="modalContent">
+    <form class="modalContent" @submit.prevent="props.handleClose">
       <div class="exit" @click="props.handleClose">
         <img class="cross" src="../assets/cross.png" />
       </div>
@@ -11,9 +11,9 @@
       </p>
       <input type="email" class="input" placeholder="Email" />
       <div class="buttonGroup">
-        <button class="button" @click="props.handleClose">Powiadom mnie</button>
+        <button class="button">Powiadom mnie</button>
       </div>
-    </div>
+    </form>
   </div>
 </template>
 
