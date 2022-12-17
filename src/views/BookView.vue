@@ -1,15 +1,15 @@
 <template>
   <div class="content">
     <div class="wrapper">
-      <img class="cover" :src="book.cover" />
+      <img class="cover" :src="data.book.cover" />
       <div class="info">
         <div class="heading">
-          <span>{{ book.name }}</span>
-          <span class="price">{{ book.price }} zł</span>
+          <span>{{ data.book.name }}</span>
+          <span class="price">{{ data.book.price }} zł</span>
         </div>
         <div class="description">
           <h3>Opis:</h3>
-          <p>{{ book.description }}</p>
+          <p>{{ data.book.description }}</p>
         </div>
         <button class="button" @click="handleModalOpen">
           Dodaj do koszyka
@@ -25,14 +25,20 @@
 
 <script setup>
 import ReservationModal from "../components/ReservationModal.vue";
-import { ref } from "vue";
+import { ref, reactive, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import data from "../books.json";
+import { useBooksQuery } from "../useBooksQuery";
 
 const route = useRoute();
-const book = data.find(({ id }) => id === route.params.id);
+const data = reactive({ book: [] });
 
 const isModalOpen = ref(false);
+
+onMounted(async () => {
+  const books = await useBooksQuery();
+  data.book = books.find(({ id }) => id === route.params.id);
+});
+
 const handleModalOpen = () => {
   isModalOpen.value = true;
 };
